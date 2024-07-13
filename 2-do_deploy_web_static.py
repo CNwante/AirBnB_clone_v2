@@ -11,6 +11,7 @@ from fabric.api import run
 
 env.hosts = ['34.232.77.220', '54.160.103.74']
 
+
 def do_deploy(archive_path):
     """Distributes an archive to a web server.
 
